@@ -6,7 +6,7 @@ cd "$(dirname "$0")"
 
 while true; do
     echo "[*] Starting bot..."
-    python3 bot.py
+    python3 bot_old.py
     EXIT_CODE=$?
     echo "[!] Bot exited (code=$EXIT_CODE), restarting in 3s..."
     sleep 3
